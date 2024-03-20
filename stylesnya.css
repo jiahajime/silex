@@ -26,13 +26,15 @@
 }
 
 .style-eightbit {
-    display: inline-block;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
     position: relative;
     text-align: center;
     padding: 4px;
     font-family: 'Press Start 2P', cursive;
-    font-size: 5px;
-    text-decoration: none; 
+    font-size: 11px;
+    text-decoration: none;
     color: white;
     box-shadow: inset -3px -2px 0px 0px #7e0000;
 
@@ -101,5 +103,4 @@
 
     }
 }
-
 
