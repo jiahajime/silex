@@ -31,7 +31,8 @@
     justify-content: center; /* Horizontally center the content */
     position: absolute;
     text-align: center;
-    padding: 4px;
+    background-color: #8f0000;
+    padding: 11px;
     font-family: 'Press Start 2P', cursive;
     font-size: 11px;
     text-decoration: none;
