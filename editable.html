@@ -294,7 +294,23 @@
     }, 0)
   })();
 </script>
-</div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1710655884286-2 style-eightbit" data-silex-id="silex-id-1710655884286-2" style=""><div class="silex-element-content"><a href="javascript:void(0)">Home</a></div></div></div>
+</div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1710655884286-2 style-eightbit" data-silex-id="silex-id-1710655884286-2" style=""><div class="silex-element-content"><p id="homeLink">Home</p>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Select the paragraph by its ID
+    var homeLink = document.getElementById('homeLink');
+
+    // Define the function to be executed when the paragraph is clicked
+    function navigateHome() {
+        // Example: Navigate to the home page
+        window.location.href = '/';
+    }
+
+    // Add an event listener to the paragraph
+    homeLink.addEventListener('click', navigateHome);
+});
+</script></div></div></div>
     </section>
     <section data-silex-type="container-element" class="container-element editable-style silex-id-1483139324559-3 section-element prevent-resizable page-home paged-element" data-silex-id="silex-id-1483139324559-3">
         <div data-silex-type="container-element" class="editable-style silex-element-content website-width silex-id-1483139324558-2 container-element" data-silex-id="silex-id-1483139324558-2">
